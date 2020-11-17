@@ -1,0 +1,54 @@
+body {
+    background-image: url(shelves.jpg);
+    background-size: cover;
+    background-repeat: none;
+    margin-top: 7px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.go{
+    text-align: center;
+    font-size: 45px;
+    padding-top: 230px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.go a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+
+}
+.go a:hover{
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+    position: inherit;
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-evenly;
+    top: 0;
+    position: sticky;
+    z-index: 6;
+
+}
+.flex-container a {
+    font-size: 15px;
+    font-weight: bolder;
+    text-decoration: none;
+    vertical-align: middle;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    border-radius: 25px;
+    padding: 5px; 
+    width: 200px;
+    height: 18px;
+    background-color: rgb(224, 224, 224);
+}
+.flex-container :hover {
+    background-color: white;
+    color: black;
+    box-shadow: white;
+}
