@@ -80,6 +80,9 @@ body{
 
         
 }
+::-webkit-scrollbar {
+    display: none;
+}
 
 /* The hero image */
 .hero-image {
