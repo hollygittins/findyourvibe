@@ -11,7 +11,7 @@ function getWhatIsChecked()
         var nine = 0;
         var film = 0;
         // loop through each question on the quiz
-        for (var z = 0; z < 6; z++)
+        for (var z = 0; z < 7; z++)
         {
             var topChoice = "choice" + z;
             var choiceAnswer = document.getElementsByName(topChoice);
@@ -44,7 +44,7 @@ function getWhatIsChecked()
             
                     // add up the totals for each vibe from the answers
                     // if any selection is > 2 at any point, the best option is discovered
-                    for (var z = 0; z < 6; z++)
+                    for (var z = 0; z < 7; z++)
                     {
                         switch(userChoice[z])
                         {
@@ -53,7 +53,7 @@ function getWhatIsChecked()
                             if (guitar >= 3)
                             {
                                 bestChoice = "guitar";
-                                window.location.href="https://www.youtube.com/";
+                                window.location.href="finalindex.html";
                             }
                             //return "guitar";
                             break;
@@ -63,7 +63,7 @@ function getWhatIsChecked()
                             if (lofi >= 3)
                             {
                                 bestChoice = "lofi";
-                                window.location.href="https://www.youtube.com/";
+                                window.location.href="lofi.html";
                             }
                             //return "lofi";
                             break;
@@ -73,7 +73,7 @@ function getWhatIsChecked()
                             if (nine >= 3)
                             {
                                 bestChoice = "nineties";
-                                window.location.href="https://www.youtube.com/";
+                                window.location.href="cheesyimages.html";
                             }
                             //return "nine";
                             break;
@@ -83,7 +83,7 @@ function getWhatIsChecked()
                             if (film >= 3)
                             {
                                 bestChoice = "film";
-                                //window.location.href="https://www.youtube.com/";
+                                window.location.href="project4.html";
                             }
                             //return "film";
                             break;
@@ -96,7 +96,7 @@ function getWhatIsChecked()
                     if(guitar < 3 && lofi < 3 && nine < 3 && film < 3)
                     {
                         bestChoice = "guitar";
-                        window.location.href="https://www.youtube.com/";
+                        window.location.href="finalindex.html";
                     }
                    window.alert(bestChoice);
                    
