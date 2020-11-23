@@ -95,7 +95,7 @@ function getWhatIsChecked()
                     //check the if expression, you are not checking bestChoice but all of the other vars playlists
                     if(guitar < 3 && lofi < 3 && nine < 3 && film < 3)
                     {
-                        bestChoice = "guitar";
+                        bestChoice = "Press OK to see your Vibe";
                         window.location.href="finalindex.html";
                     }
                    window.alert(bestChoice);
