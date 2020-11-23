@@ -33,6 +33,7 @@
     background-color: inherit;
     font-family: inherit;
     margin: 0;
+    font-weight:700;
 }
 .navbar a:hover, .dropdown:hover .dropbtn {
     background-color: white;
