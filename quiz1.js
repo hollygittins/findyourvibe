@@ -11,7 +11,7 @@ function getWhatIsChecked()
         var nine = 0;
         var film = 0;
         // loop through each question on the quiz
-        for (var z = 0; z < 7; z++)
+        for (var z = 0; z < 8; z++)
         {
             var topChoice = "choice" + z;
             var choiceAnswer = document.getElementsByName(topChoice);
