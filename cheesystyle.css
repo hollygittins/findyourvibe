@@ -71,12 +71,7 @@
       
 }
 
-body{
-   background-color: black;
-   font-family: 'Source Sans Pro', sans-serif;
 
-        
-}
 ::-webkit-scrollbar {
     display: none;
 }
@@ -90,7 +85,7 @@ body{
 
 
 .hero-image {
-        background-image: url('../pictures/disco.jpg');
+        background-image: url('../disco.jpg');
         height: 95%;
         padding: 0px;
         margin: 0px;
