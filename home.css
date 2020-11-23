@@ -59,6 +59,10 @@ body {
     display: block;
 }
 .go{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     text-align: center;
     font-size: 45px;
     padding-top: 230px;
