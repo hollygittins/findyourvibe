@@ -1,4 +1,6 @@
 
+
+
 /* nav bar */   
 
 .navbar {
@@ -71,21 +73,16 @@
       
 }
 
-
-::-webkit-scrollbar {
-    display: none;
-}
-
 body{
    background-color: black;
    font-family: 'Source Sans Pro', sans-serif;
+
         
 }
 
 
-
 .hero-image {
-        background-image: url('../disco.jpg');
+        background-image: url('../pictures/disco.jpg');
         height: 95%;
         padding: 0px;
         margin: 0px;
