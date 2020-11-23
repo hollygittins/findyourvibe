@@ -66,10 +66,12 @@ body {
 }
 .go a{
     text-decoration: none;
-    color: #100927;
+    color: white;
     font-weight: 500;
+    transition: 240ms all;
 
 }
 .go a:hover{
     cursor: pointer;
+    transform: scale(1.2);
 }
