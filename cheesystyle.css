@@ -2,7 +2,7 @@
 
 
 /* nav bar */   
-    ::-webkit-scrollbar {
+::-webkit-scrollbar {
         display: none;
     }
     
