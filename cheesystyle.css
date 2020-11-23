@@ -72,7 +72,7 @@ body{
 
 
 .hero-image {
-        background-image: url('disco.jpg');
+        background-image: url(disco.jpg);
         height: 95%;
         padding: 0px;
         margin: 0px;
