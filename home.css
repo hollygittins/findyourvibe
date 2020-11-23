@@ -9,6 +9,7 @@ body {
     overflow: hidden;
     background-color: black;
     font-family: 'Source Sans Pro', sans-serif;
+    margin-top: 0;
 }
 .navbar a {
     float: left;
@@ -77,5 +78,5 @@ body {
     cursor: pointer;
     border-bottom: solid;
     border-color: white;
-    border-width: 1px;
+    border-width: 5px;
 }
