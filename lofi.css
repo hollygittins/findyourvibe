@@ -20,7 +20,7 @@
 .dropdown {
     float: left;
     overflow: hidden;
-    font-weight:700;
+    
  
 }
   
@@ -33,6 +33,7 @@
     background-color: inherit;
     font-family: inherit;
     margin: 0;
+    font-weight:700;
   
 }
   
