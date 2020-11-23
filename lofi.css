@@ -79,26 +79,18 @@ font-family: 'Source Sans Pro', sans-serif;
 
 /* The hero image */
 .hero-image {
-    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('lofi.jpg');
-  
-    /* Set a specific height */
+ 
+    background-image:url('lofi.jpg');
     height: 90%;
     padding: 0px;
     margin: 0px;
     position: relative;
-  
-    /* Position and center the image to scale nicely on all screens */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     transition: 240ms all;
     
 }
-  
-
-/* Place text in the middle of the image */
-
 .hero-text {
     text-align: center;
     position: absolute;
@@ -107,31 +99,67 @@ font-family: 'Source Sans Pro', sans-serif;
     transform: translate(-50%, -50%);
     color: white;
     padding: 10px;
-    font-size: xx-large;
     font-family: 'Source Sans Pro', sans-serif;
-
+    
   
 }    
 
-p{
-    font-style: italic;
-}
-.hero-text button {
-    border: none;
-    outline: 0;
-    display: inline-block;
-    padding: 10px 25px;
-    color: black;
-    background-color: grey;
-    opacity: 0.5;
-    text-align: center;
-    cursor: pointer;
+h1{
+    letter-spacing: 4px;
+    font-size: 30px;
+    font-weight: 70px;
 }
 
-.hero-text button:hover {
-    background-color: #555;
-    color: white;
+.linkto{
+    padding-left: 2px;
+    margin: 2px;
+    text-align: center;
+    font-size: 55px;
+    font-weight: 200px;
+    font-family: 'Noto Serif', serif;
+    font-style: italic;
+    letter-spacing: 5px;
+    padding: 10px;
+    
 }
+
+.linkto a{
+    text-decoration: none;
+    color:white;  
+}
+
+.linkto a:hover{
+    border: white;
+    border: solid;
+    margin: 2px;
+    border-width: 4px;
+    font-weight: 300px;    
+}
+
+.seemore {
+    display: inline-block;
+    padding: 10px 25px;
+    color: white;
+    background-color: transparent;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.seemore a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+.seemore a:visited {
+    color:white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+
 
 
 
