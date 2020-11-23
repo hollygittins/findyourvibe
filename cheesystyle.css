@@ -10,6 +10,7 @@
     overflow: hidden;
     background-color: black;
     font-family: 'Source Sans Pro', sans-serif;
+    font-weight:700;
 }
 .navbar a {
     float: left;
