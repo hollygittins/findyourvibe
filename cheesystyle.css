@@ -1,7 +1,4 @@
 
-
-
-
 /* nav bar */   
 
 .navbar {
@@ -84,27 +81,27 @@ body{
     display: none;
 }
 
-/* The hero image */
+body{
+   background-color: black;
+   font-family: 'Source Sans Pro', sans-serif;
+        
+}
+
+
+
 .hero-image {
-        /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('backgroundpic.jpg');
-      
-        /* Set a specific height */
-        height: 90%;
+        background-image: url('../pictures/disco.jpg');
+        height: 95%;
         padding: 0px;
         margin: 0px;
         position: relative;
-      
-        /* Position and center the image to scale nicely on all screens */
         background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        transition: 240ms all;
+        background-repeat: repeat;
+        transition: 300ms all;
         
 }
       
 
-/* Place text in the middle of the image */
 
 .hero-text {
         text-align: center;
@@ -112,37 +109,71 @@ body{
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        color: white;
+        color: black;
         padding: 10px;
-        font-size: xx-large;
         font-family: 'Source Sans Pro', sans-serif;
+        display: inline-block;
 
       
 }    
 
-p{
+h1{
         font-style: italic;
+        letter-spacing: 4px;
+        font-size: 30px;
+        font-weight: 70px;
 }
-.hero-text button {
-        border: none;
-        outline: 0;
+
+.linkto{
+        padding-left: 2px;
+        margin: 2px;
+        display: inline-block;
+        text-align: center;
+        font-size: 55px;
+        font-weight: 200px;
+        font-family: 'Noto Serif', serif;
+        letter-spacing: 3px;
+        padding: 10px;
+        
+}
+.linkto a{
+        text-decoration: none;
+        color:black;
+        
+    }
+    .linkto a:hover{
+        text-decoration: underline;
+        font-weight: 300px;
+
+        
+    }
+
+.seemore {
         display: inline-block;
         padding: 10px 25px;
         color: black;
-        background-color: grey;
-        opacity: 0.5;
+        background-color: transparent;
         text-align: center;
         cursor: pointer;
+        text-decoration: none;
+        font-weight: bolder;
+        font-size: 30px;
 }
 
-.hero-text button:hover {
-        background-color: #555;
-        color: white;
+.seemore a:link {
+        color: black;
+        background-color: transparent;
+        text-decoration: none;
+      }
+.seemore a:visited {
+        color:black;
+        background-color: transparent;
+        text-decoration: none;
 }
 
 
 
-/* the scroller */ 
+
 
 .grid {
         display: grid;
@@ -207,14 +238,3 @@ section {
         opacity: 0;
 }
 
-
-footer{
-        width: auto;
-        padding: 10px;
-        margin: 10px;
-        text-align: right;
-        font-size: medium;
-        font-style: normal;
-        font-family: 'Source Sans Pro', sans-serif;
-        color: white;
-}
