@@ -174,7 +174,8 @@ h1{
     grid-template-rows: 400px;
     overflow: hidden;
     scroll-behavior: smooth;
-    padding: 30px;
+    padding: 0px;
+    padding-top: 30px;
 }
 
 section {
