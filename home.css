@@ -1,9 +1,12 @@
 body {
-    background-image: url(shelves.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(shelves.jpg);
     background-size: cover;
     background-repeat: none;
     margin-left: 0px;
     margin-right: 0px;
+    margin-top:0;
+    display: block;
+  
 }
 .navbar {
     overflow: hidden;
