@@ -73,13 +73,12 @@ body {
 }
 .go a{
     text-decoration: none;
-    color: white;
+    color: rgba(255, 255, 255, 0.863);
     font-weight: 500;
+    transition: all 300ms
 
 }
 .go a:hover{
-    cursor: pointer;
-    border-bottom: solid;
-    border-color: white;
-    border-width: 5px;
+    font-size:55px;
+    color: white;
 }
