@@ -132,27 +132,7 @@ body {
     border-width: 2px;
     position: inherit;
 }
-.go{
-    padding: 5px 5px;
-    padding-left: 0px;
-    margin-top: 50px;
-    left: auto;
-    right: auto;
-    text-align: center;
-    font-size: 30px;
-    font-weight: 200px;
-    font-family: 'Playfair Display', serif;
-    font-style: italic;
-}
-.go a {
-    text-decoration: none;
-    color:white;
-}
-.go a:hover{
-  border-bottom: solid;
-  border-color: white;
-  border-width: 1px;
-}
+
 .grid {
     padding-top: 50px;
     display: grid;
