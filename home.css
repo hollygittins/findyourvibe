@@ -1,15 +1,18 @@
 body {
-    background-image: url(shelves.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(shelves.jpg);
     background-size: cover;
     background-repeat: none;
-    margin-top: 7px;
     margin-left: 0px;
     margin-right: 0px;
+    margin-top:0;
+    display: block;
+  
 }
 .navbar {
     overflow: hidden;
     background-color: black;
     font-family: 'Source Sans Pro', sans-serif;
+    margin-top: 0;
 }
 .navbar a {
     float: left;
@@ -60,20 +63,22 @@ body {
     display: block;
 }
 .go{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     text-align: center;
     font-size: 45px;
-    padding-top: 230px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 .go a{
     text-decoration: none;
-    color: white;
+    color: rgba(255, 255, 255, 0.863);
     font-weight: 500;
+    transition: all 300ms
 
 }
 .go a:hover{
-    border-style: solid;
-    border-color: white;
-    border-width: 2px;
-    position: inherit;
+    font-size:55px;
+    color: white;
 }

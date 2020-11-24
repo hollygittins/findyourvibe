@@ -4,6 +4,7 @@
     overflow: hidden;
     background-color: black;
     font-family: 'Source Sans Pro', sans-serif;
+    font-weight:700;
 }
   
 .navbar a {
@@ -19,6 +20,7 @@
 .dropdown {
     float: left;
     overflow: hidden;
+    
  
 }
   
@@ -31,6 +33,7 @@
     background-color: inherit;
     font-family: inherit;
     margin: 0;
+    font-weight:700;
   
 }
   
@@ -80,8 +83,8 @@ font-family: 'Source Sans Pro', sans-serif;
 /* The hero image */
 .hero-image {
  
-    background-image:url('lofi.jpg');
-    height: 90%;
+    background-image:url('lofiback.jpg');
+    height: 95%;
     padding: 0px;
     margin: 0px;
     position: relative;
@@ -171,7 +174,8 @@ h1{
     grid-template-rows: 400px;
     overflow: hidden;
     scroll-behavior: smooth;
-    padding: 30px;
+    padding: 0px;
+    padding-top: 30px;
 }
 
 section {
@@ -229,13 +233,4 @@ section {
 }
 
 
-footer{
-    width: auto;
-    padding: 10px;
-    margin: 10px;
-    text-align: right;
-    font-size: medium;
-    font-style: normal;
-    font-family: 'Source Sans Pro', sans-serif;
-    color: white;
-}
+
