@@ -93,10 +93,6 @@ body {
     font-size: 20px;
     font-family: 'Work Sans';
 }
-.more {
-    font-size: 30px;
-    font-family: 'Source Sans Pro';
-}
 .more a{
     border: white 2px;
     display: inline-block;
@@ -107,6 +103,7 @@ body {
     background-color: Transparent;
     background-repeat:no-repeat;
     text-decoration: none;
+    font-family: 'Source Sans Pro';
 }
 
 
@@ -182,6 +179,17 @@ section {
     text-align: center;
     display: inline-block;
 
+}
+h1{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 0.5;
+    font-size: 15px;
+    margin: 0 auto;
+    color: white;
+    width: 250px;
+    display: block;
+    text-align: center;
+    padding-top: 10px;
 }
 
 p{
